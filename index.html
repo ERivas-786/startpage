@@ -1,76 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <title>~/startpage</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-
-<body>
-    <div class="container">
-        <div class="left-container">
-
-
-
+  <head>
+    <meta charset="UTF-8" />
+    <title>Welcome!</title>
+    <link rel="stylesheet" type="text/css" href="stars.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
-<body onLoad='getDate()' style="text-align: center">
-    
-    <h1 id="Date"></h1>
 
-            <div class="gif">
-                <img class='vapor' src="clouds.gif" width="450px" height="400px" />
-            </div>
+  <body onLoad="getDate()" style="text-align: center">
+    <div class="bg-animation full-wh">
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+      <div id="stars4"></div>
+      <div class="container">
+        <div class="left-container">
+          <h1 id="Date"></h1>
+
+          <div class="gif">
+            <img class="image" src="space.gif" width="450px" height="400px" />
+          </div>
         </div>
 
         <div class="right-container">
-            <div class="head">
-              <p>&gt; cd ~/<span class="blinking">_</span></p>
+          <div class="head">
+            <p style="color: #eadbb2">
+              &gt; cd ~/<span class="blinking">_Welcome Back Ema!</span>
+            </p>
+          </div>
+
+          <div class="bookmarks">
+            <div class="category">
+              <div class="links">
+                <li class="title" style="color: #f01d1d">daily/school</li>
+                <li><a href="https://gmail.com">gmail</a></li>
+                <li><a href="https://outlook.office.com/mail/">outlook</a></li>
+                <li><a href="https://canvas.fiu.edu/">canvas</a></li>
+                <li><a href="https://www.linkedin.com/feed/">linkedIn</a></li>
+                <li>
+                  <a href="https://fiu.joinhandshake.com/stu">handshake</a>
+                </li>
+              </div>
             </div>
 
-            <div class="bookmarks">
-                <div class="category">
-                    <div class="links">
-                        <li class="title">daily</li>
-                        <li><a href="https://gmail.com">gmail</a></li>
-                        <li><a href="https://mail.protonmail.com">protonmail</a></li>
-                        <li><a href="https://linkedin.com">youtube</a></li>
-                        <li><a href="https://reddit.com/">reddit</a></li>
-                    </div>
-                </div>
-
-                <div class="category">
-                    <div class="links">
-                        <li class="title">dev</li>
-                        <li><a href="https://github.com/">github</a></li>
-                        <li><a href="https://stackoverflow.com/">stackoverflow</a></li>
-                        <li><a href="https://distrowatch.com/">distrowatch</a></li>
-                        <li><a href="https://devdocs.io/">devdocs</a></li>
-                    </div>
-                </div>
-
-                <div class="category">
-                    <div class="links">
-                        <li class="title"><a style="color: #EADBB2" href="https://reddit.com">reddit</a></li>
-                        <li><a href="https://reddit.com/r/programming/">r/programming</a></li>
-                        <li><a href="https://reddit.com/r/archlinux/">r/archlinux</a></li>
-                        <li><a href="https://reddit.com/r/unixporn/">r/unixporn</a></li>
-                        <li><a href="https://reddit.com/r/linuxmasterrace/">r/linuxmr</a></li>
-                    </div>
-                </div>
-
-                <div class="category">
-                    <div class="links">
-                        <li class="title">fun</li>
-                        <li><a href="https://monkeytype.com/">monkeytype</a></li>
-                        <li><a href="https://twitter.com/">twitter</a></li>
-                        <li><a href="https://twitch.tv/">twitch</a></li>
-                        <li><a href="https://netflix.com/">netflix</a></li>
-                    </div>
-                </div>
+            <div class="category">
+              <div class="links">
+                <li class="title" style="color: #33ff05">dev</li>
+                <li><a href="https://github.com/">github</a></li>
+                <li><a href="https://www.udemy.com/">udemy</a></li>
+                <li><a href="https://mui.com/">materialUI</a></li>
+              </div>
             </div>
+
+            <div class="category">
+              <div class="links">
+                <li class="title" style="color: #f2bf35">streaming/video</li>
+                <li><a href="https://www.youtube.com/">youtube</a></li>
+                <li><a href="https://www.crunchyroll.com/">crunchyroll</a></li>
+                <li><a href="https://www.tiktok.com/en/">tiktok</a></li>
+                <li>
+                  <a href="https://www.amazon.com/Prime-Video/b?node=2676882011"
+                    >prime_video</a
+                  >
+                </li>
+              </div>
+            </div>
+
+            <div class="category">
+              <div class="links">
+                <li class="title">
+                  <a style="color: #28a8ed">fun</a>
+                </li>
+                <li><a href="https://www.amazon.com/">amazon</a></li>
+                <li><a href="https://www.pokebeach.com/">pokebeach</a></li>
+                <li>
+                  <a
+                    href="https://app.destinyitemmanager.com/4611686018484327690/d2/inventory"
+                    >dim</a
+                  >
+                </li>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>

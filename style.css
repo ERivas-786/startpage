@@ -1,15 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
 :root {
-    --color-bg: #1E1E2E;
-    --color-fg: #D9E0EE;
-    --color-link: #8F9191;
-    --color-link-visited: #F5C2E7;
-    --color-link-hover: #FF79C6 ;
+  --color-bg: #000000;
+  --color-fg: #d9e0ee;
+  --color-link: #8f9191;
+  --color-link-visited: #f5c2e7;
+  --color-link-hover: #ff79c6;
 }
 
-html, body {
+html,
+body {
   background: var(--color-bg);
   color: var(--color-fg);
   font-family: "Ubuntu";
@@ -19,22 +20,22 @@ html, body {
   padding: 0;
 }
 
-.vapor {
+.image {
   border-radius: 12px;
   border-style: solid;
-  border-color: #FF79C6;
-
+  border-color: #ff01c8;
 }
 
 .container {
   display: grid;
+  position: relative;
   grid-template-columns: 1fr 460px 600px 1fr;
-  grid-template-areas:
-    ". left right .";
+  grid-template-areas: ". left right .";
   column-gap: 80px;
   justify-items: center;
   align-items: center;
   min-height: 100%;
+  z-index: 1;
 }
 
 .left-container {
@@ -49,8 +50,10 @@ html, body {
 }
 
 .gif img {
+  position: relative;
   max-width: 100%;
   max-height: 100%;
+  z-index: 2;
 }
 
 .head {
@@ -87,7 +90,7 @@ html, body {
 li {
   font-size: 16px;
   list-style-type: none;
-  padding: 5px
+  padding: 5px;
 }
 
 a:link {
@@ -104,7 +107,7 @@ a:hover {
 }
 
 .blinking {
-  animation: opacity 1s ease-in-out infinite;
+  animation: opacity 2.5s ease-in-out infinite;
   opacity: 1;
 }
 
@@ -123,7 +126,6 @@ a:hover {
 }
 
 #Date {
-
-  font-family: 'Bebas Neue';
+  font-family: "Bebas Neue";
   font-size: 40px;
 }
