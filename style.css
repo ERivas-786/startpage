@@ -51,8 +51,8 @@ body {
 
 .gif img {
   position: relative;
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 25rem;
+  max-height: 25rem;
   z-index: 2;
 }
 
