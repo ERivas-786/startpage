@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
 :root {
   --color-bg: #000000;
   --color-fg: #d9e0ee;
@@ -13,7 +14,7 @@ html,
 body {
   background: var(--color-bg);
   color: var(--color-fg);
-  font-family: "Ubuntu";
+  font-family: "VT323";
   height: 100%;
   width: 100%;
   margin: 0;
@@ -51,6 +52,8 @@ body {
 
 .gif img {
   position: relative;
+  width: 25rem;
+  height: 25rem;
   max-width: 25rem;
   max-height: 25rem;
   z-index: 2;
@@ -60,8 +63,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 40px;
-  padding-top: 60px;
+  font-size: 3rem;
+  padding-top: 2rem;
 }
 
 .category {
@@ -85,11 +88,11 @@ body {
 }
 
 .title {
-  font-size: 20px;
+  font-size: 1.7rem;
 }
 
 li {
-  font-size: 16px;
+  font-size: 1.2rem;
   list-style-type: none;
   padding: 5px;
 }
